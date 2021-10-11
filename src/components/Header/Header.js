@@ -19,7 +19,8 @@ const Header = () => {
                     user.email ?
                         <button onClick={logOut}>log out</button>
                         :
-                        <NavLink to="/login">Login</NavLink>}
+                        <NavLink to="/login">Login</NavLink>
+                }
             </nav>
         </div>
     );
